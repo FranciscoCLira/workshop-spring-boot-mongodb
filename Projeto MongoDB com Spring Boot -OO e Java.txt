@@ -1,0 +1,53 @@
+Programação OO com Java -
+Projeto MongoDB com Spring Boot -OO com Java
+
+
+Curso: Programação Orientada a Objetos com Java
+http://educandoweb.com.br
+Prof. Dr. Nelio Alves
+Capítulo: Projeto MongoDB com Spring Boot
+
+
+
+C:\data\db
+
+PATH: C:\Program Files\MongoDB\Server\6.0\bin
+
+
+C:\Users\Samsung>mongod
+
+NO github criar novo projeto: workshop-spring-boot-mongodb
+
+
+NO STS - Spring Tool Suite, criar projeto:   workspace: C:\temp\ws
+
+Name: workshopmongo
+
+Group......: com.franciscoclira
+Artifact...: workshopmongo
+Description: Workshop Spring Boot com MongoDB
+Package....: com.franciscoclira.workshopmongo  
+
+
+--------------------
+
+Fazer commit: 
+
+Samsung@LAPTOP-9P7FQEU6 MINGW64 /c/temp/ws/workshopmongo
+$ git init
+Initialized empty Git repository in C:/temp/ws/workshopmongo/.git/
+
+git branch -M master
+
+Samsung@LAPTOP-9P7FQEU6 MINGW64 /c/temp/ws/workshopmongo (main)
+
+$ git config --global user.name "Francisco Casemiro Lira" 
+$ git config --global user.email "franciscoclira@hotmail.com"
+
+--> criar o projeto no github na web e depois de criar copia a linha abaixo para o git bash:  
+$ git remote add origin git@github.com:FranciscoCLira/course-springboot-2-java-11.git
+
+Samsung@LAPTOP-9P7FQEU6 MINGW64 /c/temp/ws/workshopmongo (main)
+$ git add . 
+$ git commit -m "Project created"
+$ git push
