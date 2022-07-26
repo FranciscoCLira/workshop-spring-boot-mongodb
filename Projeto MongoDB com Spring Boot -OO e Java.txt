@@ -49,5 +49,9 @@ $ git remote add origin git@github.com:FranciscoCLira/course-springboot-2-java-1
 
 Samsung@LAPTOP-9P7FQEU6 MINGW64 /c/temp/ws/workshopmongo (main)
 $ git add . 
-$ git commit -m "Project created"
-$ git push
+$ git commit -m "Primeiro commit - projeto criado"
+
+associar o projeto criado no github 
+$ git remote add origin git@github.com:FranciscoCLira/workshop-spring-boot-mongodb.git
+
+$ git push -u origin master
