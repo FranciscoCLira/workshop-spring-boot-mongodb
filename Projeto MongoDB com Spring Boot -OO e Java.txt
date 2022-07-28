@@ -57,3 +57,10 @@ $ git remote add origin git@github.com:FranciscoCLira/workshop-spring-boot-mongo
 $ git push -u origin master
 
 =========================================================
+
+
+
+Aula 
+Consulta com vários critérios
+
+http://localhost:8080/posts/fullsearch?text=bom&maxDate=2018-03-30  
